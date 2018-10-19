@@ -35,7 +35,7 @@ const reducer = (state = initialState, action) => {
       case actionTypes.AUTH_FAIL: return authFail(state, action);
       default:
         return state;
-    };
+    }
 };
 
 export default reducer;
